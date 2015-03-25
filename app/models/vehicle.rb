@@ -1,0 +1,4 @@
+class Vehicle < RepositoryModel
+
+
+end

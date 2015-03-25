@@ -1,0 +1,3 @@
+class VehicleTour < RepositoryModel
+
+end

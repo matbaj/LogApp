@@ -1,0 +1,5 @@
+class Package < RepositoryModel
+
+
+
+end

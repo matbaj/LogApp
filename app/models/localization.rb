@@ -1,0 +1,4 @@
+class Localization < RepositoryModel
+
+
+end
