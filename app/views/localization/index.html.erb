@@ -1,0 +1,11 @@
+<h1> Listing all Localization</h1>
+
+<%= link_to "new", "/localization/new" %>
+<table>
+	<th>Name</th>
+	<th>Action</th>
+<% @localizations.each do |l| %>
+<tr><td><%= l.name %></td><td> <%= link_to "show details", "/localization/#{l.id}" %> <%= link_to "edit", "#" %> <%= link_to "destroy", "#" %></td></tr>
+
+<% end %>
+</table>

@@ -1,0 +1,11 @@
+<h1> Listing all users</h1>
+
+<%= link_to "new", "/user/new" %>
+<table>
+	<th>Name</th>
+	<th>Action</th>
+<% @users.each do |u| %>
+<tr><td><%= u.username %></td><td> <%= link_to "show details", "/user/#{u.id}" %> <%= link_to "edit", "#" %> <%= link_to "destroy", "#" %></td></tr>
+
+<% end %>
+</table>

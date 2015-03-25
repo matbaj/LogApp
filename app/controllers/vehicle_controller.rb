@@ -3,8 +3,6 @@ class VehicleController < ApplicationController
 
 	def index
 		@vehicles = Repo.all(Vehicle)
-		puts Repo.adapter
-		puts @vehicles
 	end
 
 	def create

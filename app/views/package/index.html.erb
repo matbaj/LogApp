@@ -1,0 +1,12 @@
+<h1> Listing all packages</h1>
+
+<%= link_to "new", "/package/new" %>
+(<%= @packages %>)
+<table>
+	<th>Name</th>
+	<th>Action</th>
+<% @packages.each do |p| %>
+<tr><td><%= p.name %></td><td> <%= link_to "show details", "/package/#{v.id}" %> <%= link_to "edit", "#" %> <%= link_to "destroy", "#" %></td></tr>
+
+<% end %>
+</table>
