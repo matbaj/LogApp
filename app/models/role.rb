@@ -1,6 +1,4 @@
-class Role < RepositoryModel
-	id = nil
-	name = nil
-	value = nil
+class Role
+	attr_accessor :id, :name, :value
 
 end

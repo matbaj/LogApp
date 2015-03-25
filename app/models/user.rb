@@ -1,8 +1,6 @@
-class User < RepositoryModel
+class User
 
-	id = nil
-	username = nil
-	password = nil
+	attr_accessor :id, :username, :password
 
 
 	def self.authorize(username, password)
@@ -12,12 +10,6 @@ class User < RepositoryModel
 
 		return nil
 	end
-
-
-	def set_role
-
-	end
-
 	
 
 

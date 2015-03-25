@@ -1,0 +1,9 @@
+<h1> New vehicle</h1>
+
+
+<form action="/vehicle" method="post">
+	<%= tag(:input, :type => "hidden", :name => request_forgery_protection_token.to_s, :value => form_authenticity_token) %> 
+	<p>name: <input type="text" name="name"></p>
+	<p><input type="submit"></p>
+
+</form>

@@ -1,7 +1,6 @@
-class Admin < RepositoryModel
+class Admin
 
-	username = nil
-	password = nil
+	attr_accessor :id, :username, :password
 
 
 	def create(username,password)

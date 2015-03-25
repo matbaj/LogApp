@@ -1,7 +1,3 @@
-class UserRole < Repository
-
-	id= nil
-	user_id = nil
-	role_id = nil
-
+class UserRole
+	attr_accessor :id, :user_id, :role_id
 end

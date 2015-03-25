@@ -1,12 +1,9 @@
-class PackageGroup < RepositoryModel
-
-
-	id = nil
-	name = nil
+class PackageGroup
+	attr_accessor :id, :name
 
 	def get_all_packages(group_name)
 		group = self.storage.get(group_name)
-		Packages.get_all_packages().select { |p| p.group_id == group.id }
+		Packages.storage_get_by_field("group_id", group.id)
 	end
 
 end

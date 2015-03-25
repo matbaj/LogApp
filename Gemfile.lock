@@ -15,14 +15,6 @@ GIT
       dm-core (~> 1.3.0.beta)
 
 GIT
-  remote: https://github.com/datamapper/dm-oracle-adapter.git
-  revision: 64d86fa3eb210cf98049f52708ecfcbf5ca6585c
-  specs:
-    dm-oracle-adapter (1.3.0.beta)
-      dm-do-adapter (~> 1.3.0.beta)
-      do_oracle (~> 0.10.6)
-
-GIT
   remote: https://github.com/datamapper/dm-sqlite-adapter.git
   revision: 641cb9bfd761263385097ca9cef8c070f801b3d1
   specs:
@@ -87,8 +79,6 @@ GEM
     data_objects (0.10.15)
       addressable (~> 2.1)
     debug_inspector (0.0.2)
-    do_oracle (0.10.15)
-      data_objects (= 0.10.15)
     do_sqlite3 (0.10.15)
       data_objects (= 0.10.15)
     erubis (2.7.0)
@@ -190,7 +180,6 @@ DEPENDENCIES
   coffee-rails (~> 4.1.0)
   dm-core!
   dm-do-adapter!
-  dm-oracle-adapter!
   dm-sqlite-adapter!
   jbuilder (~> 2.0)
   jquery-rails

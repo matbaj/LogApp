@@ -1,8 +1,6 @@
-class PackageStatus < RepositoryModel
+class PackageStatus
 
-	id =nil
-	package_id = nil
-	description = nil
-	date = nil
+	attr_accessor :id, :package_id, :description, :datetime
+
 
 end

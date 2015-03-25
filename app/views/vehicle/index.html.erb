@@ -1,0 +1,11 @@
+<h1> Listing all vehicles</h1>
+
+<%= link_to "new", "/vehicle/new" %>
+<table>
+	<th>Name</th>
+	<th>Action</th>
+<% @vehicles.each do |v| %>
+<tr><td><%= v.name %></td><td> <%= link_to "show details", "/vehicle/#{v.id}" %> <%= link_to "edit", "#" %> <%= link_to "destroy", "#" %></td></tr>
+
+<% end %>
+</table>

@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gem 'dm-sqlite-adapter', :git => 'https://github.com/datamapper/dm-sqlite-adapter.git'
 #gem 'data_mapper'
-gem 'dm-oracle-adapter', :git => 'https://github.com/datamapper/dm-oracle-adapter.git'
+#gem 'dm-oracle-adapter', :git => 'https://github.com/datamapper/dm-oracle-adapter.git'
 gem 'dm-do-adapter', :git => "https://github.com/datamapper/dm-do-adapter.git"
 gem 'dm-core', :git => "https://github.com/datamapper/dm-core.git"
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
